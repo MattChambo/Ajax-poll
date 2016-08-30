@@ -34,7 +34,7 @@ if($isValid == false){
 //$ipaddress = $_SERVER['REMOTE_ADDR'];
 
 // For testing, create random number to pretend we are using a different ip address
-$ipaddress = rand(1,15);
+$ipaddress = rand() . "\n";
 
 // Connect to database
 $dbc = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
