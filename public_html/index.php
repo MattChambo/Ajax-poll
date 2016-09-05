@@ -2,17 +2,18 @@
 <html>
 <head>
 	<title>Ajax Poll</title>
-<style type="text/css">
+	<style type="text/css">
 	
-	.success{
-		color: #4cae4c;
-	}
+		.success{
+			color: #4cae4c;
+		}
 
-	.error{
-		color: #d43f3a;
-	}
-	
-</style>
+		.error{
+			color: #d43f3a;
+		}
+		
+	</style>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </head>
 
 <body>
@@ -31,7 +32,9 @@
  </form>
  	<span id="message"></span>
 
+ 	<div id="barchart" style="width: 900px; height:500px;"></div>
  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
  	<script src="js/poll.js"></script>
+ 	<script src="js/barChart.js"></script>
 </body>
 </html>

@@ -31,10 +31,10 @@ if($isValid == false){
 
 // Get the users IP address
 // For testing I am commenting this line out
-$ipaddress = $_SERVER['REMOTE_ADDR'];
+//$ipaddress = $_SERVER['REMOTE_ADDR'];
 
 // For testing, create random number to pretend we are using a different ip address
-// $ipaddress = rand() . "\n";
+ $ipaddress = rand() . "\n";
 
 // Connect to database
 $dbc = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
